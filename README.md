@@ -1,13 +1,15 @@
 # Bonefracturedtection-using-deep-learning-
 
+DATSETS LINK :- https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data/data
+
 ```md
 # 🦴 Bone Fracture Detection Using Deep Learning  
 
 ## 📌 Overview  
-This project utilizes advanced deep learning architectures to detect bone fractures from X-ray images with **98% accuracy**. By leveraging **R2U-Net, U-Net, Vision Transformer, and Attention U-Net**, the model efficiently segments and classifies fractures for accurate diagnosis.  
+This project utilizes advanced deep learning architectures to detect bone fractures from X-ray images with **98% accuracy**. By leveraging **R2U-Net, U-Net,  and Attention U-Net**, the model efficiently segments and classifies fractures for accurate diagnosis.  
 
 ## 🚀 Features  
-- **Multi-model approach**: R2U-Net, U-Net, Vision Transformer, Attention U-Net  
+- **Multi-model approach**: R2U-Net, U-Net, Attention U-Net  
 - **98% accuracy** on the test dataset  
 - **Automatic X-ray image segmentation and fracture detection**  
 - **Attention-based models** for improved localization  
@@ -16,10 +18,8 @@ This project utilizes advanced deep learning architectures to detect bone fractu
 ## 🛠️ Technologies Used  
 - **Deep Learning Frameworks:** TensorFlow, PyTorch  
 - **Model Architectures:**  
-  - **U-Net & R2U-Net** (for segmentation)  
-  - **Vision Transformer (ViT)** (for feature extraction)  
+  - **U-Net & R2U-Net** (for segmentation) 
   - **Attention U-Net** (for improved focus on fracture regions)  
-- **Computer Vision:** OpenCV  
 - **Dataset:** Publicly available medical X-ray datasets  
 
 ## 📂 Dataset  
@@ -48,7 +48,6 @@ We trained and validated our models using medical X-ray datasets, such as:
 |-----------------|---------|------------|---------------|
 | **U-Net**       | 94%     | 0.87       | 0.82          |
 | **R2U-Net**     | 96%     | 0.91       | 0.87          |
-| **Vision Transformer** | 97% | 0.93       | 0.89          |
 | **Attention U-Net** | 98% | 0.95       | 0.92          |
 
 ## 🤖 Future Enhancements  
